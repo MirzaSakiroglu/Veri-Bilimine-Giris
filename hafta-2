@@ -1,0 +1,43 @@
+# Soru-1
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def talk(self):
+        print("This is football Sometimes")
+
+class Teacher(Human):
+    def __init__(self, name, age, id):
+        super().__init__(name, age)
+        self.id = id
+
+    def talk(self):
+        print("Something teacher")
+
+class Secretary(Human):
+    def __init__(self, name, age, workplace):
+        super().__init__(name, age)
+        self.workplace = workplace
+
+    def talk(self):
+        print("Something Secretary")
+
+class Student(Human):
+    def __init__(self, name, age, school):
+        super().__init__(name, age)
+        self.school = school
+
+    def talk(self):
+        print("Something Student")
+
+# Usage
+student1 = Student("Ahmet", 12, "Adana")
+secretary1 = Secretary("Mehmet", 22, "Aselsan")
+teacher1 = Teacher("Hakan", 28, 123456)
+human1 = Human("Test", 1)
+
+print(human1.age)
+secretary1.talk()
+teacher1.talk()
+
