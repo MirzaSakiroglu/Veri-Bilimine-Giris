@@ -14,6 +14,9 @@ class Teacher(Human):
 
     def talk(self):
         print("Something teacher")
+    
+    def give_lecture(self):
+        print("Lecture")
 
 class Secretary(Human):
     def __init__(self, name, age, workplace):
