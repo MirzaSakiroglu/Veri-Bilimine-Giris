@@ -1,7 +1,9 @@
 # Veri Bilimine Giriş
 ## Ödevler
-1 - Giriş Python kodları
+Hafta-1 -> Giriş Python kodları
 
-2 - Inheritance ile ilgili örnekler
+Hafta-2 -> Inheritance ile ilgili örnekler
+
+Hafta-3 -> Pandas ile Database işlemleri
 
 ## Projeler
